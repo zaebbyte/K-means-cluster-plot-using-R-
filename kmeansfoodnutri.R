@@ -1,4 +1,5 @@
 #dataset
+#set your environment to the document which has the file if u are using r studio 
 library(ggplot2)
 foodnutri<- read.csv("nutrifood.csv", stringsAsFactors = FALSE)
 View(foodnutri)
